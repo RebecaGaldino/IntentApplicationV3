@@ -18,7 +18,7 @@ public class CalculadoraActivity extends AppCompatActivity {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_calculator);
+            setContentView(R.layout.activity_calculadora);
 
             GridLayout gl = new GridLayout(this);
 
