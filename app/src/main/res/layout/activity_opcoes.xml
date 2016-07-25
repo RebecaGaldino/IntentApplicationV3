@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="6"
+    android:rowCount="9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insira o texto:"
+        android:id="@+id/title" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nº Telefone, artista ou busca"
+        android:id="@+id/field"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Maps"
+        android:id="@+id/btGoogleMaps"
+        android:onClick="googleMaps" />
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        android:id="@+id/btSMS"
+        android:onClick="enviarSms" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Busca"
+        android:id="@+id/btBusca"
+        android:onClick="buscaDireta" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configurações"
+        android:id="@+id/configuracoes"
+        android:onClick="configuracoes"
+        android:layout_row="4"
+        android:layout_column="0" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tocar Musica"
+        android:id="@+id/btTocarMusica"
+        android:onClick="buscaMusica"
+        android:layout_row="6"
+        android:layout_column="0" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alarme"
+        android:id="@+id/btAlarme"
+        android:onClick="chamarAlarme"
+        android:layout_row="7"
+        android:layout_column="0" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horaEditText"
+        android:hint="Hora"
+        android:inputType="number"
+        android:layout_row="7"
+        android:layout_column="4" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/minutoEditText"
+        android:inputType="number"
+        android:hint="Minuto"
+        android:layout_row="7"
+        android:layout_column="5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora"
+        android:id="@+id/btcalculadora"
+        android:onClick="calculadora"
+        android:layout_row="8"
+        android:layout_column="0" />
+
+</GridLayout>
