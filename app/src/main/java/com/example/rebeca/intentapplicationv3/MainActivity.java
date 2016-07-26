@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.rebeca.intentapplicationv2.GaleriaActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -18,11 +20,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /* Acrescente aqui a chamada da galeria
+
     public void abrirGaleria (View v){
-        Intent intent = new Intent(this, galeria.class);
+        Intent intent = new Intent(this, GaleriaActivity.class);
+        startActivity(intent);
     }
-    */
+
 
 
 }
