@@ -1,4 +1,4 @@
-package com.example.rebeca.intentapplicationv2;
+package com.example.rebeca.intentapplicationv3;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
