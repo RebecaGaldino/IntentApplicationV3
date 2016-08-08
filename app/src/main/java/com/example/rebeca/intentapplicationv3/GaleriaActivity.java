@@ -32,10 +32,11 @@ public class GaleriaActivity extends AppCompatActivity {
 
         ImageView img6 = (ImageView) findViewById(R.id.imageView6);
         img6.setImageResource(R.mipmap.foto6);
+    /*
         img6.setScaleType(ImageView.ScaleType.FIT_XY);
         img6.setLayoutParams(new Gallery.LayoutParams(150,120));
         img6.setBackgroundColor(Color.BLACK);
-
+    */
 
     }
 
